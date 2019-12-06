@@ -1,0 +1,419 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* ///////////////////////////////////// HEADER \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+header {
+    background: url(../images/Background\ Image.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header {
+    content: "";
+    background:rgba(0, 0, 0, 0.5);
+    padding: 50px 0 160px;
+}
+
+
+
+/* ----------------------------------------- starting header-top ---------------------------------------------- */
+.header-top {
+    z-index: 50;
+}
+.header-top .navbar-light .navbar-nav .nav-link {
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+
+
+/* ----------------------------------------- starting header-main ----------------------------------------- */
+.header-main {
+    z-index: 50;
+}
+.header-main h2 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 205px;
+}
+.header-main h1 {
+    font-size: 75px;
+    font-weight: 700;
+    margin-top: 50px;
+    color: #fff;
+}
+.header-main button {
+    border: none;
+    border-radius: 4px;
+    background: #fed136;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 60px;
+    padding: 25px 50px;
+    color: #fff;
+    cursor: pointer;
+}
+/* ----------------------------------------- end header-main ----------------------------------------- */
+
+
+
+
+/* ///////////////////////////////////////////////////////////// MAIN \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+
+
+/* ----------------------------------------------- Starting Services --------------------------------------------------- */
+
+.services {
+    padding: 120px 0;
+}
+.services h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #222222;
+    padding-bottom: 20px;
+}
+.services p {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    color: #777777;
+    padding-bottom: 50px;
+}
+
+.services .services-block h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #222222;
+    padding: 25px 0 20px;
+}
+.services .services-block p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #777777;
+}
+/* ----------------------------------------------- End Services --------------------------------------------------- */
+
+
+
+
+
+/* -------------------------------------------------------- Starting portfolio ------------------------------------------ */
+
+.portfolio {
+    background: #f7f7f7;
+    padding: 120px 0 90px;
+    text-align: center;
+}
+.portfolio h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #222222;
+    padding-bottom: 20px;
+}
+.portfolio p {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    color: #777777;
+    padding-bottom: 80px;
+}
+
+.portfolio-cards {
+    margin-bottom: 50px;
+}
+.portfolio-cards h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #333333;
+    padding-top: 30px;
+    background: #fff;
+}
+.portfolio-cards p {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    color: #737373;
+    padding: 5px 0 30px;
+    background: #fff;
+}
+.portfolio-cards a:hover {
+    text-decoration: none;
+}
+/* -------------------------------------------------------- End portfolio ------------------------------------------ */
+
+
+
+
+/* -------------------------------------------------------- Starting about-us ------------------------------------------ */
+
+.about-us {
+    padding: 120px 0;
+}
+.about-us h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #222222;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.about-us p {
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    color: #222222;
+    text-align: center;
+    padding-bottom: 80px; 
+}
+
+.about-us-cards h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #222222;
+}
+.about-us-cards p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+    padding: 20px 0 0;
+    text-align: inherit;
+}
+.about-us-cards img {
+    width: 100%;
+    height: auto;
+}
+.about-us-card-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-us-card-img::after {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 90px;
+    background: #f1f1f1;
+}
+.about-us-card-last-img {
+    border: none!important;
+}
+.about-us-card-last-img::after {
+    display: none;
+}
+/* -------------------------------------------------------- End about-us ------------------------------------------ */
+
+
+
+
+/* --------------------------------------------------------- Starting our-team -------------------------------------- */
+
+
+.our-team {
+    background: #f9f9f9;
+    padding: 120px 0;
+}
+.our-team h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #222222;
+    padding-bottom: 25px;
+}
+.our-team p {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    color: #222222;
+}
+
+.our-team-cards {
+    padding: 80px 0 50px;
+}
+.our-team-card h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #222222;
+    padding-top: 25px;
+}
+.our-team-card p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+    padding-top: 8px;
+}
+.our-team-card a {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #222222;
+    border: 3px solid #222222;
+    border-radius: 50%;
+    margin: 15px 10px 0 0;
+}
+.our-team-card a:hover {
+    text-decoration: none;
+    color: #777777;
+    border-color: #777777;
+}
+/* --------------------------------------------------------- End our-team -------------------------------------- */
+
+
+
+
+
+/* ---------------------------------------------------------- Starting brands ---------------------------------- */
+
+
+.brands {
+    margin: 60px 0; 
+}
+/* ---------------------------------------------------------- End brands --------------------------------------- */
+
+
+
+
+
+
+/* ----------------------------------------------------------- Starting contact-us ------------------------------------------ */
+
+
+.contact-us {
+    background: no-repeat url(../images/Background.png) 0 0 / cover;
+    padding: 110px 0 115px;
+}
+.contact-us h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    padding-bottom: 25px;
+}
+.contact-us p {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    color: #777777;
+}
+
+.contact-us .send-msg {
+    padding: 80px 0 0;
+}
+.contact-us .send-msg input {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    color: #bbbbbb;
+    padding: 19px 20px;
+    border: 1px solid #bbbbbb;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+.contact-us .send-msg textarea {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    color: #bbbbbb;
+    padding: 19px 20px;
+    border: 1px solid #bbbbbb;
+    border-radius: 3px;
+    resize: none;
+}
+.contact-us button {
+    margin: auto;
+    font-size: 18px;
+    color: #fff;
+    padding: 25px 48px;
+    background: #fed136;
+    border: none;
+    border-radius: 4px;
+}
+/* ------------------------------------------------------------- End contact-us ---------------------------------------------- */
+
+
+
+
+
+
+
+
+
+/* ///////////////////////////////////////////////////////////////////////// FOOTER \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+footer {
+    padding: 30px 0 20px;
+}
+footer p {
+    font-size: 14px;
+    color: #555555;
+}
+footer a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    background: #222222;
+    color: #fff;
+    border-radius: 50%;
+}
+footer a:hover {
+    text-decoration: none;
+    color: #777777;
+    border-color: #777777;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px) { 
+    .header {
+        padding: 50px 0 100px;
+    }
+    .header-main h1 {
+        font-size: 55px;
+    }
+    .header-main h2 {
+        margin-top: 105px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-us-cards {
+        padding-top: 25px;
+    }
+    .about-us-card-img::after {
+        display: none;
+    }
+    .about-us-card-img {
+        border-bottom: 2px solid #f1f1f1;
+        padding: 25px 0;
+    }
+}
