@@ -4549,7 +4549,7 @@ display: block;
 
     .main_event_block img {
         width: 100%;
-        height: auto;
+        height: 200px;
     }
 
     .main_event_block_text {
@@ -5054,7 +5054,7 @@ display: block;
         font-size: 31px;
     }
 
-        /* ------------------------------------------------------------------------------------------- main_fof */
+        /* ---------------------------------------------------------------- main_fof */
 
         .main_fof {
             padding: 40px 0;
@@ -5120,6 +5120,19 @@ display: block;
         justify-content: space-around;
         margin-top: 20px;
     }
+    .header_top_right button {
+        margin: 0;
+        padding: 0;
+    }
+
+    .header_top_right a:nth-child(2) {
+        display: none;
+    }
+
+    .header_top_right .top_nav_bars a {
+        margin: 0;
+    }
+
 }
 
 
