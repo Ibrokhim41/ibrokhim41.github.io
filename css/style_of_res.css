@@ -2226,7 +2226,7 @@ footer {
     background: #fea100;
     padding: 10px;
     position: relative;
-    height: fit-content;
+    align-self: flex-start;
 }
 
 .date h5 {
