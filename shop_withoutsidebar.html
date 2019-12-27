@@ -34,13 +34,75 @@
                         <div class="mob">
                             <nav>
                                 <ul class="d-flex">
-                                    <li><a href="home_2.html">Home</a></li>
-                                    <li><a href="menu_mixed.html">menu</a></li>
-                                    <li><a href="book_table.html">reservation</a></li>
-                                    <li><a href="recipie_2.html">recipe</a></li>
-                                    <li><a href="blog.html">blog</a></li>
-                                    <li><a href="event.html">Pages</a></li>
-                                    <li><a href="Contact.html">contact</a></li>
+                                    <li class="dropdown">
+                                        <a href="#!" id="dropdown1">Home</a>
+                                        <div class="dropdown_content" id="dropdown_content1">
+                                            <div class="d-flex flex-column">
+                                                <a href="home.html">Home</a>
+                                                <a href="home_2.html">Home 2</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#!" id="dropdown2">menu</a>
+                                        <div class="dropdown_content" id="dropdown_content2">
+                                            <div class="d-flex flex-column">
+                                                <a href="menu_mixed.html">Menu Menu Mixed</a>
+                                                <a href="menu_list.html">Menu List</a>
+                                                <a href="menu_title.html">Menu Tile</a>
+                                                <a href="menu_grid.html">Menu Grid</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#!" id="dropdown3">reservation</a>
+                                        <div class="dropdown_content" id="dropdown_content3">
+                                            <div class="d-flex flex-column">
+                                                <a href="book_table.html">book table</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#!" id="dropdown4">recipe</a>
+                                        <div class="dropdown_content" id="dropdown_content4">
+                                            <div class="d-flex flex-column">
+                                                <a href="recipie_2.html">recipe</a>
+                                                <a href="recipie_3.html">recipe 2</a>
+                                                <a href="recipie.html">recip detail</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#!" id="dropdown5">blog</a>
+                                        <div class="dropdown_content" id="dropdown_content5">
+                                            <div class="d-flex flex-column">
+                                                <a href="blog.html">Blog</a>
+                                                <a href="blog_details.html">Blog detail</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#!" id="dropdown6">Pages</a>
+                                        <div class="dropdown_content" id="dropdown_content6">
+                                            <div class="d-flex flex-column">
+                                                <a href="about_us.html">about us</a>
+                                                <a href="event.html">event</a>
+                                                <a href="event_detail.html">event detail</a>
+                                                <a href="chef.html">Chef</a>
+                                                <a href="Gallery.html">Gallery</a>
+                                                <a href="404.html">404</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#!" id="dropdown7">contact</a>
+                                        <div class="dropdown_content" id="dropdown_content7">
+                                            <div class="d-flex flex-column">
+                                                <a href="Contact.html">Contact 1</a>
+                                                <a href="contact_2.html">Contact 2</a>
+                                            </div>
+                                        </div>
+                                    </li>
                                 </ul>
                             </nav>
                             <div class="close d-none" id="close">
@@ -50,10 +112,22 @@
                     </div>
                     <!-- header_right -->
                     <div class="header_top_right d-flex align-items-center">
-                        <a href="shop_withsidebar.html"><i class="fa fa-shopping-cart"><span>3</span></i><i
-                                class="fa fa-caret-down"></i></a>
-                        <a href="book_table.html"><button class="d-none d-md-block"><i class="fa fa-concierge-bell"></i>BOOK YOUR TABLE</button></a>
-                        <a href="book_table.html"><button class="d-block d-md-none"><i class="fa fa-concierge-bell"></i></button></a>
+                        <div class="dropdown">
+                            <a href="#!" id="dropdown8" id="dropdown8"><i
+                                    class="fa fa-shopping-cart"><span>3</span></i><i class="fa fa-caret-down"></i></a>
+                            <div class="dropdown_content" id="dropdown_content8">
+                                <a href="shop_withsidebar.html">Shop</a>
+                                <a href="shop_withoutsidebar.html">shop 2</a>
+                                <a href="shop_detail.html">shop detail</a>
+                                <a href="shop_cart.html">shop cart</a>
+                                <a href="check_out.html">chech out</a>
+                            </div>
+                        </div>
+                        <a href="book_table.html"><button class="d-none d-md-block"><i
+                                    class="fa fa-concierge-bell"></i>BOOK
+                                YOUR TABLE</button></a>
+                        <a href="book_table.html"><button class="d-block d-md-none"><i
+                                    class="fa fa-concierge-bell"></i></button></a>
                         <div class="top_nav_bars d-flex d-lg-none align-items-center">
                             <a href="#!" id="navbars"><i class="fa fa-bars"></i></a>
                         </div>
@@ -410,6 +484,7 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jequrey.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
